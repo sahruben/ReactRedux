@@ -22,10 +22,10 @@ export const InputComponent = styled.input`
   font-size: 16px;
   border-radius: 10px;
 
-  &::placeholder {
+&::placeholder {
     color: #6f6f6f;
-  }
-`;
+}
+`
 
 export const ErrorMessage = styled.p`
   color: red;
